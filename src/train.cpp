@@ -3,7 +3,7 @@
 
 Train::Train() : first(nullptr), countOp(0) {}
 
-void Train::addWagon(bool light) {
+void Train::addCage(bool light) {
     if (first == nullptr) {
         first = new Wagon;
         first->prev = nullptr;
